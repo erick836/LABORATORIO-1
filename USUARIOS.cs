@@ -54,7 +54,19 @@ namespace LABORATORIO_I
                         if (B == 4)
                         {
                             Console.Clear();
-                            Console.WriteLine("TENGA BUEN DIA");
+                            Console.WriteLine("DESEA IR AL INICIO? \n 1. SI \n 2. NO");
+                            Z = int.Parse(Console.ReadLine());
+                            Console.Clear();
+                            if (Z == 1)
+                            {
+                                USE();
+                            }
+                            if (Z == 2)
+                            {
+                                Console.Clear();
+                                Console.WriteLine("TENGA BUEN DIA");
+
+                            }
                         }
                     }
                 }
@@ -88,7 +100,19 @@ namespace LABORATORIO_I
                         if (C == 3)
                         {
                             Console.Clear();
-                            Console.WriteLine("TENGA BUEN DIA");
+                            Console.WriteLine("DESEA IR AL INICIO? \n 1. SI \n 2. NO");
+                            Z = int.Parse(Console.ReadLine());
+                            Console.Clear();
+                            if (Z == 1)
+                            {
+                                USE();
+                            }
+                            if (Z == 2)
+                            {
+                                Console.Clear();
+                                Console.WriteLine("TENGA BUEN DIA");
+
+                            }
                         }
                     }
                 }
